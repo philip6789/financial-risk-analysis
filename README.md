@@ -58,26 +58,18 @@ It covers the full pipeline from data processing to risk modeling, backtesting, 
 ---
 
 ## 📂 Project Structure
-financial-risk-analysis/
-│
-├── README.md
-├── requirements.txt
-│
-│
-├── src/                            
-│   ├── __init__.py                #empty
-│   ├── data_processing.py
-│   ├── var_models.py
-│   ├── rolling_var.py
-│   ├── volatility_models.py        # EWMA + GARCH
-│   ├── backtesting.py
-│   ├── stress_testing.py
-│   └── run_pipeline.py              main.py
-│
-├── notebooks/                      
-│   └── risk_analysis_demo.ipynb    
-│
-└── .gitignore
+\---financial analysis-github
+    +---notebooks
+    |       main.ipynb
+    |
+    \---src
+            backtesting.py
+            bug_test.py
+            compute_var.py
+            data_loader.py
+            rolling_var.py
+            stress_testing.py
+            volatility.py
 
 ## ⚙️ Environment Setup
 
