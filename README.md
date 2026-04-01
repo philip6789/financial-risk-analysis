@@ -58,23 +58,28 @@ It covers the full pipeline from data processing to risk modeling, backtesting, 
 ---
 
 ## 📂 Project Structure
-\---financial analysis-github
-    +---notebooks
-    |       main.ipynb
-    |
-    \---src
-            backtesting.py
-            bug_test.py
-            compute_var.py
-            data_loader.py
-            rolling_var.py
-            stress_testing.py
-            volatility.py
+```bash
+FINANCIAL-ANALYSIS-GITHUB
+|   requirements.txt
+|
++---notebooks
+|       main.ipynb
+|
+\---src
+        backtesting.py
+        bug_test.py
+        compute_var.py
+        data_loader.py
+        pipeline.py
+        rolling_var.py
+        stress_testing.py
+        volatility.py
+```
 
 ## ⚙️ Environment Setup
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Tested with
-Python 3.10
+Python 3.12.10
