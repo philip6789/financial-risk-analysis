@@ -2,7 +2,7 @@
 A financial risk analysis project covering VaR estimation, backtesting (Kupiec &amp; Christoffersen), and volatility modeling using EWMA and GARCH.
 
 
-## 📌 Overview
+##  Overview
 
 This project builds a comprehensive financial risk analysis framework for a multi-asset portfolio (AAPL, MSFT, GOOGL).
 
@@ -10,7 +10,7 @@ It covers the full pipeline from data processing to risk modeling, backtesting, 
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 1. Data Processing
 - Download historical price data
@@ -47,7 +47,7 @@ It covers the full pipeline from data processing to risk modeling, backtesting, 
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
 - Modular design with reusable risk models (`src/`)
 - Rolling estimation capturing time-varying risk
@@ -57,7 +57,7 @@ It covers the full pipeline from data processing to risk modeling, backtesting, 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```bash
 FINANCIAL-ANALYSIS-GITHUB
 |   requirements.txt
@@ -76,7 +76,7 @@ FINANCIAL-ANALYSIS-GITHUB
         volatility.py
 ```
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 ```bash
 pip install -r requirements.txt
